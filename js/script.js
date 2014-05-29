@@ -33,14 +33,14 @@ window.addEventListener('load', function() {
 	);
 	map.addLayer(graphic2);
 
-	var graphic2 = new OpenLayers.Layer.Image(
+	var graphic3 = new OpenLayers.Layer.Image(
 		'City Lights',
 		'img/world.gif',
 		new OpenLayers.Bounds(-25, 25.759, -7, 33.759),
 		new OpenLayers.Size(580, 288),
 		layerImageOptions
 	);
-	map.addLayer(graphic2);
+	map.addLayer(graphic3);
 
 
 	var features = [];
